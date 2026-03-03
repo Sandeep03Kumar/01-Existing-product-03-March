@@ -1,34 +1,28 @@
 # hao-backprop-test
 
-A minimal Express.js web server built with Node.js. This tutorial project demonstrates basic HTTP routing with two endpoints that return plain-text responses.
+A minimal Flask web server built with Python 3. This tutorial project demonstrates basic HTTP routing with two endpoints that return plain-text responses. It is a direct rewrite of the original Express.js / Node.js server, preserving identical endpoint behavior.
 
 ## Prerequisites
 
-- [Node.js](https://nodejs.org/) v18 or higher (developed with Node.js 20.20.0)
-- npm (included with Node.js)
+- [Python](https://www.python.org/) 3.10 or higher (developed with Python 3.12.3)
+- pip (included with Python)
 
 ## Installation
 
 Clone the repository and install dependencies:
 
 ```bash
-npm install
+pip install -r requirements.txt
 ```
 
-This installs Express.js and its transitive dependencies as declared in `package.json`.
+This installs Flask and its transitive dependencies as declared in `requirements.txt`.
 
 ## Running the Server
 
-Start the server using npm:
+Start the server directly with Python:
 
 ```bash
-npm start
-```
-
-Or run it directly with Node.js:
-
-```bash
-node server.js
+python app.py
 ```
 
 The server binds to `http://127.0.0.1:3000/` and logs a confirmation message to the console:
